@@ -1,0 +1,143 @@
+body{
+  width:100%;
+  hight:100%;
+  margin:0px;
+  padding:0px;
+  background-color:white;
+  position:relative;
+}
+
+.morq{
+  color:white;
+  background-color:black;
+  font-size:60px;
+  margin:0px;
+  position:fixed;
+  z-index:1;
+}
+  .tit{
+    font-size:25px;
+    color:lightblue;
+  } 
+.sec1{
+  background-color:lightgrey;
+  hight:100%;
+  width:50%;
+  margin-top:69px;
+}
+.sec2{
+  background-color:#C49999;
+  hight:100%;
+  width:50%;
+  margin-top:69px;
+}
+.bloc{
+  display:flex;
+   height:100%;
+  margin-bottom:-10px;
+  padding-bottom:-10px;
+}
+.tag{
+  background-color:white;
+  height:68px;
+  margin-top:60px;
+}
+.logo{
+  position:absolute;
+  top:133px;
+  right:10px;
+  width:60px;
+  
+}
+.title{
+  text-align:center;
+}
+#coming{
+  color:#03117A;
+  margin-top:-20px;
+}
+#consultency{
+  font-size:60px;
+}
+#edu{
+  font-size:40px;
+   text-align:center;
+  margin-top:8px;
+}
+#but{
+  text-align:center;
+}
+.sl{
+  width:200px;
+  height:10vh;
+  border:2px solid 16px white;
+  border-radius:15px;
+  background-color:green;
+  color:white;
+  font-size:20px;
+  cursor:pointer;
+  margin-top:-5px;
+}
+#contacttitle{
+  margin-top:40%;
+  font-size:30px;
+}
+#sec1mg>img{
+  width:50%;
+  height:40%;
+  position:absolute;
+  top:280px;
+  left:0px;
+  margin-top:4px;
+  z-index:0;
+}
+#webd{
+  display:flex;
+  margin-top:30px;
+  margin-left:70px;
+}
+#web>img{
+  width:60%;
+  border-radius:50%;
+}
+#web>img:hover{
+  width:70%;
+  transition:all 0.5s;
+  cursor:pointer;
+}
+.para{
+  margin-left:2px;
+}
+.para2{
+  margin-left:47px;
+}
+.par{
+   margin-left:-15px;
+}
+.hovbut{
+  background-color:purple;
+  width:160px;
+  height:50px;
+  margin-top:12px;
+  margin-left:4px;
+  border:2px solid purple;
+  border-radius:10px;
+  cursor:pointer;
+  color:white
+}
+.hovbut:hover{
+  background:transparent; 
+  color:purple;
+}
+#about{
+  background-color:white;
+  hight:100%;
+  width:100%;
+  
+}
+#copyright{
+  background-color:darkblue;
+  color:white;
+  text-align:center;
+  height:200%;
+}
